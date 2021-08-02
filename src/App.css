@@ -1,0 +1,155 @@
+.meals {
+  align-items: center;
+  background: #0fa36b;
+  color: #464646;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.rocksGlass {
+  animation: shake 1s infinite ease;
+  max-height: 80vh;
+}
+
+/*
+#iceLeft {
+  animation: clink .8s infinite ease;
+  opacity: 0.6;
+  transform-origin: 36px 66px;
+}
+
+#iceRight {
+  animation: clink .8s .2s infinite ease;
+  opacity: 0.6;
+  transform-origin: 60px 78px;
+}
+*/
+
+.meals > .logo {
+  animation: shake 1.5s infinite ease;
+  color: aliceblue;
+  font-family: Montserrat , sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+@keyframes shake {
+
+  0% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(5deg);
+  }
+}
+
+@keyframes clink {
+
+  0% {
+    transform: rotate(-10deg);
+  }
+
+  50% {
+    transform: rotate(20deg);
+  }
+
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
+.login {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 640px;
+  justify-content: center;
+  margin: auto;
+  width: 260px;
+}
+
+.menu {
+  align-items: stretch;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.title {
+  flex-grow: 2;
+  text-align: center;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.loading {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.list-card {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.copy-msg {
+  align-items: center;
+  animation: animatetop 3s ease-in-out;
+  background-color: white;
+  display: flex;
+  height: 5vh;
+  justify-content: center;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+}
+
+@keyframes animatetop {
+
+  0% {
+    opacity: 0;
+    top: -50px;
+  }
+
+  25% {
+    opacity: 100;
+    top: 0;
+  }
+
+  75% {
+    opacity: 100;
+    top: 0;
+  }
+
+  100% {
+    opacity: 0;
+    top: -50px;
+  }
+}

@@ -1,9 +1,7 @@
 {
-  "extends": "trybe-backend",
-  "globals": {
-    "db": "writable"
-  },
+  "root": true,
+  "extends": ["trybe-frontend"],
   "rules": {
-    "sonarjs/no-duplicate-string": ["error", 5]
+    "no-alert": 0
   }
 }
