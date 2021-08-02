@@ -10,7 +10,7 @@ Tratam-se, em sua maioria, de exercícios destinados a avaliar o conhecimento ad
 
 As branches estão organizadas em ordem cronológica de realização. Optei por isso como forma de poder visualizar minha evolução.
 
-Recentemente, tenho me dedicado a descrever as propostas dos projetos e traçar alguns comentários a respeito da minha experiência em suas documentações. Este, porém, é um trabalho que ainda não foi concluído e, por tal razão, conto com a sua compreensão para aqueles casos em que eu ainda não tenha concluído essa tarefa. :pleading_face:
+Recentemente, tenho me dedicado a descrever as propostas dos projetos e traçar alguns comentários a respeito da minha experiência em suas documentações. Este, porém, é um trabalho em andamento e, por tal razão, conto com a sua compreensão para aqueles casos em que eu ainda não tenha concluído essa tarefa. :pleading_face:
 
 No [meu perfil do Github](https://github.com/pythaqua), você pode encontrar meus contatos se quiser falar comigo.
 
